@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Roboto_Slab } from "next/font/google";
+import {
+  Roboto_Slab,
+  Square_Peg,
+  Cormorant_Garamond,
+  Instrument_Serif,
+} from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Menu from "@/components/menu";
 import Footer from "@/components/footer";
@@ -7,6 +13,29 @@ import Footer from "@/components/footer";
 const robotoSlab = Roboto_Slab({
   variable: "--font-roboto-slab",
   subsets: ["latin"],
+});
+
+const squarePeg = Square_Peg({
+  variable: "--font-square-peg",
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const cormorantGaramond = Cormorant_Garamond({
+  variable: "--font-cormorant-garamond",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const theImpressionist = localFont({
+  src: "../../public/font/theimpressionist-webfont.woff",
+  variable: "--font-the-impressionist",
+});
+
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument-serif",
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +50,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${robotoSlab.variable} antialiased`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body
+        className={`${robotoSlab.variable} ${squarePeg.variable} ${cormorantGaramond.variable} ${theImpressionist.variable} ${instrumentSerif.variable} antialiased`}
+      >
         <Menu />
         {children}
         <Footer />

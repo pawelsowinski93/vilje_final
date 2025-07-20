@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "The Impressionist";
+  src: url("/font/theimpressionist-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -10,6 +18,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-square-peg: var(--font-square-peg);
+  --font-cormorant-garamond: var(--font-cormorant-garamond);
+  --font-the-impressionist: var(--font-the-impressionist);
+  --font-instrument-serif: var(--font-instrument-serif);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,9 +35,18 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
-.grain::after {
+.font-instrument-serif {
+  font-family: var(--font-instrument-serif), "Instrument Serif", serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* .grain::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -38,4 +59,4 @@ body {
   background-size: 2px 2px;
   opacity: 0.5;
   z-index: 1;
-}
+} */

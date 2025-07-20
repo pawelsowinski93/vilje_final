@@ -9,11 +9,11 @@ export default function StarListElement({
 }) {
   return (
     <div className={className}>
-      <div className="flex items-center gap-2">
-        <div className="w-2 h-2 bg-black rounded-full" />
-        <p className="text-sm font-bold">{title}</p>
+      <div className="flex items-start gap-3">
+        <div className="mt-[1px] text-2xl font-medium leading-5">✺</div>
+        <p className="text-sm">{title}</p>
+        <p className="text-sm">{label}</p>
       </div>
-      <p className="text-sm">{label}</p>
     </div>
   );
 }
