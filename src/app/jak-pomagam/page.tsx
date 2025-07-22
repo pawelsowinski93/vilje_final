@@ -57,21 +57,21 @@ export default function JakPomagam() {
           <p className="text-[#6f684e] mb-4 text-sm">
             W terapii zwracamy uwagę na to, co dzieje się w ciele – bo to
             właśnie ono często pierwsze reaguje na trudne sytuacje. Napięcie,
-            bezsenność, lęk czy odrętwienie to sygnały, że nasz układ nerwowy
+            bezsenność, lęk czy odrętwienie – to sygnały, że nasz układ nerwowy
             potrzebuje wsparcia. To reakcje naszego układu nerwowego, który
             próbuje nas chronić. W bezpiecznej przestrzeni możesz nauczyć się
-            rozpoznawać te reakcje i regulować je– bez presji, w swoim tempie.
+            rozpoznawać te reakcje i regulować je – bez presji, w swoim tempie.
             To podejście polega na lepszym zrozumieniu siebie i tego, jak ciało
             i emocje się ze sobą łączą.
           </p>
           <p className="text-[#6f684e] mb-4 text-sm">
-            Zamiast walczyć z objawami – przyglądamy się temu, co próbują nam
-            powiedzieć. W ten sposób powoli odzyskujemy wpływ na to, jak
-            reagujemy w stresujących sytuacjach. Nasze reakcje – nawet te, które
-            wydają się niezrozumiałe – mają sens. Możemy wspólnie zrozumieć,
-            skąd się biorą i jak sobie z nimi radzić. Ciało i umysł zaczynają ze
-            sobą współpracować, a my zyskujemy więcej wewnętrznego spokoju i
-            siły.
+            Zamiast walczyć z występującymi objawami – przyglądamy się temu, co
+            próbują nam powiedzieć. W ten sposób powoli odzyskujemy wpływ na to,
+            jak reagujemy w stresujących sytuacjach. Nasze reakcje – nawet te,
+            które wydają się niezrozumiałe – mają sens. Możemy wspólnie
+            zrozumieć, skąd się biorą i jak sobie z nimi radzić. Ciało i umysł
+            zaczynają ze sobą współpracować, a my zyskujemy więcej wewnętrznego
+            spokoju i siły.
           </p>
         </div>
         {/* Małe zdjęcie w rogu */}
@@ -96,11 +96,10 @@ export default function JakPomagam() {
           </p>
           <p className=" mb-4 text-sm">
             Nasze myśli mają duży wpływ na to, jak się czujemy i jak reagujemy –
-            nawet jeśli na co dzień tego nie zauważamy. Czasem nawet nie
-            zauważamy, że w głowie toczy się cichy dialog, który podcina
-            skrzydła albo budzi niepokój. Nauczymy się zauważać te myśli – nie
-            po to, by je oceniać, ale by je lepiej zrozumieć, spojrzeć na nie z
-            innej perspektywy.
+            nawet jeśli na co dzień tego nie zauważamy. W głowie toczy się cichy
+            dialog, który podcina skrzydła albo budzi niepokój. Uczymy się
+            zauważać te myśli – nie po to, by je oceniać, ale by je lepiej
+            zrozumieć, spojrzeć na nie z innej perspektywy.
           </p>
           <p className=" mb-4 text-sm">
             Wszyscy nosimy w sobie przekonania o sobie i świecie – niektóre
@@ -126,14 +125,6 @@ export default function JakPomagam() {
       <section className="w-full flex flex-col md:flex-row bg-[#7b7451] min-h-[600px] text-white relative py-12">
         {/* Lewa część: zdjęcia i napis */}
         <div className="md:w-2/5 w-full flex flex-col items-center justify-center relative">
-          {/* Napis odręczny */}
-          <span
-            className="absolute left-4 top-12 text-2xl italic opacity-80 whitespace-pre-line hidden md:block"
-            style={{ fontFamily: "cursive" }}
-          >
-            expertly
-            {"\n"}capturing your story
-          </span>
           {/* Duże zdjęcie w ramce */}
           <div className="border-8 border-[#e5e0d3] md:p-2 p-0 bg-[#e5e0d3] relative z-10 md:mt-8 mt-0">
             <Image

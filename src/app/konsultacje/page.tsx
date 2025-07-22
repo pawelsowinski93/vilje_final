@@ -84,16 +84,16 @@ export default function Konsultacje() {
               50 minut-250 zł
             </h3>
             <p className="text-[#a89c6d] text-center">
-              Bez presji i ocen poznajesz siebie – swoje potrzeby, emocje, ciało
-              i myśli. Uczysz się zatrzymywać, rozpoznawać mechanizmy i działać
-              w zgodzie ze sobą.
+              W bezpiecznej i wspierającej przestrzeni masz okazję lepiej
+              poznawać siebie – swoje ciało, emocje i potrzeby. Uczysz się
+              zatrzymywać i przyglądać się swoim doświadczeniom.
             </p>
           </div>
         </div>
       </section>
 
       <ParallaxSection
-        title="W kontakcie ze sobą – możesz działać z miejsca wolności, a nie lęku."
+        title="Ciało, które czuje się bezpiecznie, zaczyna opowiadać swoją historię."
         button={{ title: "UMÓW SIĘ", href: "/kontakt" }}
       />
       <Section className="bg-[#D2CBB6]">

@@ -63,7 +63,7 @@ export const education = [
   },
   {
     title: "",
-    text: "2-letnie studia podyplomowe z zakresu: psychotraumatologii, psychodietetyki oraz przygotowania pedagogicznego dla psychologów",
+    text: "Studia podyplomowe z zakresu: psychotraumatologii, psychodietetyki oraz przygotowania pedagogicznego dla psychologów",
   },
   {
     title: "",
@@ -126,7 +126,7 @@ export const faqs = [
   {
     question: "Odwołanie",
     answer:
-      "Sesję można odwołać z możliwie największym wyprzedzeniem, jednak najpóźniej 43 godzin przed zaplanowanym terminem, aby ktoś inny miał możliwość skorzystać z pomocy. Najlepszym sposobem na kontakt w takim wypadku będzie wiadomość SMS. W razie niepoinformowania o rezygnacji z sesji w odpowiednim czasie, sesja pozostaje płatna. W przypadku cotygodniowych sesji, dwie nieobecności z rzędu bez kontaktu i podania powodu będą traktowane jako sygnał o rezygnacji z terapii.",
+      "Sesję można odwołać z możliwie największym wyprzedzeniem, jednak najpóźniej 48 godzin przed zaplanowanym terminem, aby ktoś inny miał możliwość skorzystać z pomocy. Najlepszym sposobem na kontakt w takim wypadku będzie wiadomość SMS. W razie niepoinformowania o rezygnacji z sesji w odpowiednim czasie, sesja pozostaje płatna. W przypadku cotygodniowych sesji, dwie nieobecności z rzędu bez kontaktu i podania powodu będą traktowane jako sygnał o rezygnacji z terapii.",
   },
   {
     question: "Jak się spotkamy?",

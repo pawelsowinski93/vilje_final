@@ -2,6 +2,7 @@ import Button from "@/components/atoms/button";
 import StarListElement from "@/components/atoms/starListElement";
 import { education } from "@/utils/constants";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -46,15 +47,16 @@ export default function AboutPage() {
               style={{ fontFamily: '"Instrument Serif", serif' }}
             >
               Dzień dobry, z tej strony <br />
-              <strong>Katarzyna Sowińska</strong>
+              <em>Katarzyna Sowińska</em>
             </p>
             <p className="text-[#6f684e] mb-4 text-sm">
-              Psycholog ze specjalnością: kliniczna i osobowości. Ukończyłam 2
-              letnie studia podyplomowe z psychotraumatologii oraz
-              psychodietetyki. Jestem także praktykiem Brainspotting. Obecnie
-              jestem uczestnikiem szkoły psychoterapii skierowanej na pracę z
-              traumą Pomorskiego Centrum Psychotraumatologii oraz w trakcie
-              specjalizacji z metody Somatic Experiencing (in spe).
+              Jestem magistrem psychologii, kierunek: psychologia kliniczna oraz
+              osobowości, a także dyplomowanym psychotraumatologiem i
+              psychodietetykiem. Pracuję również jako praktyk metody
+              Brainspotting. Obecnie kontynuuję rozwój jako uczestniczka szkoły
+              psychoterapii ukierunkowanej na pracę z traumą Pomorskiego Centrum
+              Psychotraumatologii oraz jestem w trakcie specjalizacji z metody
+              Somatic Experiencing (in spe).
             </p>
             <p className="text-[#6f684e] mb-4 text-sm">
               Niezmiernie ważne jest dla mnie jest podejście holistyczne.
@@ -66,10 +68,10 @@ export default function AboutPage() {
             <p className="text-[#6f684e] text-sm">
               W pracy terapeutycznej łączę podejścia psychologiczne z metodami
               pracy z ciałem i układem nerwowym. Taka praca umożliwia nie tylko
-              odzyskać równowagi psychicznej, ale i trwałe wzmocnienie psychiki.
-              Zastosowanie metod pracy z ciałem pozwala dotrzeć do źródeł
-              traumy, lęku czy stresu, zapisanych w układzie nerwowym, często
-              niedostępnych dla świadomości.
+              odzyskanie równowagi psychicznej, ale i trwałe wzmocnienie
+              psychiki. Zastosowanie metod pracy z ciałem pozwala dotrzeć do
+              źródeł traumy, lęku czy stresu, zapisanych w układzie nerwowym,
+              często niedostępnych dla świadomości.
             </p>
           </div>
           {/* Linia pionowa na desktopie */}
@@ -181,13 +183,13 @@ export default function AboutPage() {
                 alt="Nature woman"
                 width={900}
                 height={900}
-                className="w-full h-full object-cover object-bottom max-h-[500px]"
+                className="w-full h-full object-cover object-bottom max-h-[600px]"
                 priority={false}
               />
             </div>
           </div>
           {/* Prawa kolumna: tekst */}
-          <div className="md:w-1/2 w-full bg-[#f5f1e6] flex gap-8 flex-col justify-center md:px-18 px-6 md:py-16 py-12 text-[#8a7e56]">
+          <div className="md:w-1/2 w-full bg-[#f5f1e6] flex gap-8 flex-col justify-center md:px-18 px-6 md:py-12 py-8 text-[#8a7e56]">
             <p
               className="text-4xl font-instrument-serif tracking-tightest"
               style={{ fontFamily: '"Instrument Serif", serif' }}
@@ -203,21 +205,28 @@ export default function AboutPage() {
                 />
               ))}
             </div>
+            <p className="text-sm">
+              Dbając o Twoje dobro, nieustannie poszerzam swoją wiedzę, biorę
+              udział w kursach oraz webinarach oraz doskonalę umiejętności
+              terapeutyczne. Pracuję zgodnie z etyką zawodową i superwizuję
+              swoją pracę.
+            </p>
           </div>
         </div>
       </section>
       {/* Sekcja: Call to action z owalnym zdjęciem i motylem */}
-      <section className="flex flex-row w-full justify-center items-center relative bg-[#b3a477] md:py-18 py-12 md:px-4 px-6">
+      <section className="flex flex-row w-full justify-center items-center relative bg-[#b3a477] md:py-18 py-12 md:px-4 px-6 z-10">
         <div className="md:w-1/2 w-full flex flex-col items-center justify-center md:pl-8 md:mb-0 gap-6">
           <p
-            className="text-4xl font-instrument-serif tracking-tightest"
+            className="text-4xl font-instrument-serif tracking-tightest text-center"
             style={{ fontFamily: '"Instrument Serif", serif' }}
           >
             Jeśli czujesz, że to może być dobre miejsce dla Ciebie{" "}
             <em>– zapraszam do kontaktu.</em>
           </p>
           <Button
-            type="button"
+            type="link"
+            href="/kontakt"
             label="Umów się"
             className="w-full px-6 py-5 text-xs font-extralight tracking-tightest hover:text-[#8a7e56] text-center bg-[#E9E5DB]"
           />

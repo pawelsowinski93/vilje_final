@@ -37,10 +37,20 @@ export default function Footer() {
         </p>
         <div className="flex flex-col justify-center items-center flex-wrap gap-2 text-sm font-semibold">
           {[
-            { href: "/instagram", label: "INSTAGRAM" },
-            { href: "/email", label: "EMAIL" },
+            {
+              href: "https://www.instagram.com/vilje.trauma.ciala",
+              label: "INSTAGRAM",
+            },
+            {
+              href: "mailto:vilje.katarzynapsycholog@gmail.com",
+              label: "EMAIL",
+            },
           ].map((item) => (
-            <Link key={item.href} href={item.href}>
+            <Link
+              key={item.href}
+              href={item.href}
+              target={item.label === "INSTAGRAM" ? "_blank" : "_self"}
+            >
               {item.label.toUpperCase()}
             </Link>
           ))}
@@ -67,10 +77,20 @@ export default function Footer() {
           </p>
           <div className="flex flex-col justify-center items-center flex-wrap gap-2 text-sm md:font-semibold font-normal">
             {[
-              { href: "/instagram", label: "INSTAGRAM" },
-              { href: "/email", label: "EMAIL" },
+              {
+                href: "https://www.instagram.com/vilje.trauma.ciala",
+                label: "INSTAGRAM",
+              },
+              {
+                href: "mailto:vilje.katarzynapsycholog@gmail.com",
+                label: "EMAIL",
+              },
             ].map((item) => (
-              <Link key={item.href} href={item.href}>
+              <Link
+                key={item.href}
+                href={item.href}
+                target={item.label === "INSTAGRAM" ? "_blank" : "_self"}
+              >
                 {item.label}
               </Link>
             ))}
@@ -83,7 +103,7 @@ export default function Footer() {
           <div className="flex flex-col justify-center items-center flex-wrap gap-2 text-sm md:font-semibold font-normal">
             {[
               { href: "/o-mnie", label: "O MNIE" },
-              { href: "/blog", label: "Blog" },
+              // { href: "/blog", label: "Blog" },
               { href: "/kontakt", label: "Kontakt" },
               { href: "/polityka-prywatnosci", label: "Polityka prywatności" },
             ].map((item) => (

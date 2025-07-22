@@ -9,6 +9,7 @@ export const Input = ({
   placeholder,
   onChange,
   className,
+  disabled,
 }: {
   type: string;
   value: string;
@@ -16,6 +17,7 @@ export const Input = ({
   placeholder?: string;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   className?: string;
+  disabled?: boolean;
 }) => {
   const [inputValue, setInputValue] = useState<string>(value);
 
@@ -33,6 +35,7 @@ export const Input = ({
         value={inputValue}
         placeholder={placeholder?.toUpperCase()}
         onChange={onChange || handleChange}
+        disabled={disabled}
       />
     </div>
   );

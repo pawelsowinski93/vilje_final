@@ -1,11 +1,12 @@
 import Button from "@/components/atoms/button";
-import { Input } from "@/components/atoms/input";
 import Section from "@/components/atoms/section";
 import StarListElement from "@/components/atoms/starListElement";
 import HeroVideo from "@/components/heroVideo";
 import ParallaxSection from "@/components/parallaxSection";
+import NewsletterForm from "@/components/client/NewsletterForm";
 import { meetingSteps, symptoms } from "@/utils/constants";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
             <Button
               type="link"
               label="JAK MOGĘ CI POMÓC"
-              href="/contact"
+              href="/jak-pomagam"
               className="px-6 py-5 text-xs font-extralight tracking-tightest bg-transparent border border-[#8a7e56] hover:text-[#8a7e56] md:w-auto w-full text-center"
             />
           </div>
@@ -90,6 +91,22 @@ export default function Home() {
         title="W kontakcie ze sobą – możesz działać z miejsca wolności, a nie lęku."
         button={{ title: "UMÓW SIĘ", href: "/kontakt" }}
       />
+      <section className="flex flex-row w-full justify-center items-center relative bg-[#E9E5DB] md:py-8 py-10 md:px-4 px-6 z-10 shadow-md">
+        <div className="md:w-1/2 w-full flex flex-col items-center justify-center md:pl-8 md:mb-0 gap-2">
+          <p
+            className="text-4xl font-instrument-serif tracking-tightest text-center text-[#8a7e56]"
+            style={{ fontFamily: '"Instrument Serif", serif' }}
+          >
+            Jeśli masz jakieś pytania, <em>napisz do mnie</em>
+          </p>
+          <Link
+            href="mailto:vilje.katarzynapsycholog@gmail.com"
+            className="text-[#8a7e56] md:px-6 py-5 px-0 text-xl font-extralight tracking-tightest text-center bg-transparent font-instrument-serif tracking-wide pb-0"
+          >
+            vilje.katarzynapsycholog@gmail.com
+          </Link>
+        </div>
+      </section>
       <Section className="bg-[#D2CBB6]">
         <div className="w-full flex flex-col md:gap-8 gap-6 justify-center items-center">
           <p
@@ -103,15 +120,7 @@ export default function Home() {
             przez Vilje Katarzyna Sowińska, w celu wysyłki materiałów
             marketingowych na swój adres e-mail
           </p>
-          <div className="flex md:flex-row flex-col gap-4 w-full justify-center items-center max-w-[1170px] md:px-18 px-4">
-            <Input type="text" placeholder="imię" value="" />
-            <Input type="text" placeholder="adres email" value="" />
-            <Button
-              type="button"
-              label="Zapisz się"
-              className="w-full px-6 py-5 text-xs font-extralight tracking-tightest bg-transparent border border-[#8a7e56] hover:text-[#8a7e56] text-center"
-            />
-          </div>
+          <NewsletterForm />
         </div>
       </Section>
     </div>

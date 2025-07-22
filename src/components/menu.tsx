@@ -34,7 +34,7 @@ export default function Menu() {
               { href: "/o-mnie", label: "O MNIE" },
               { href: "/konsultacje", label: "KONSULTACJE" },
               { href: "/jak-pomagam", label: "JAK POMAGAM" },
-              { href: "/blog", label: "BLOG" },
+              // { href: "/blog", label: "BLOG" },
             ].map((item) => (
               <li key={item.href}>
                 <MenuLink
@@ -86,7 +86,7 @@ export default function Menu() {
               { href: "/o-mnie", label: "O MNIE" },
               { href: "/konsultacje", label: "KONSULTACJE" },
               { href: "/jak-pomagam", label: "JAK POMAGAM" },
-              { href: "/blog", label: "BLOG" },
+              // { href: "/blog", label: "BLOG" },
             ].map((item) => (
               <li key={item.href}>
                 <MenuLink
