@@ -77,7 +77,7 @@ export default function JakPomagam() {
         {/* Małe zdjęcie w rogu */}
         <div className="hidden md:block absolute -bottom-22 left-0 w-[200px] h-[120px] z-20 shadow-lg">
           <Image
-            src="/jpg/forest-mushroom.jpg"
+            src="/jpg/bush.jpg"
             alt="Para młoda"
             fill
             className="object-cover object-center grayscale"
@@ -113,7 +113,7 @@ export default function JakPomagam() {
         {/* Duże zdjęcie po prawej */}
         <div className="hidden md:flex md:w-1/2 w-full min-h-[400px] relative">
           <Image
-            src="/jpg/forest-mushroom.jpg"
+            src="/jpg/squirrel.jpg"
             alt="Elopment couple"
             fill
             className="object-cover object-center"
@@ -126,9 +126,9 @@ export default function JakPomagam() {
         {/* Lewa część: zdjęcia i napis */}
         <div className="md:w-2/5 w-full flex flex-col items-center justify-center relative">
           {/* Duże zdjęcie w ramce */}
-          <div className="border-8 border-[#e5e0d3] md:p-2 p-0 bg-[#e5e0d3] relative z-10 md:mt-8 mt-0">
+          <div className="border-8 border-[#e5e0d3] md:p-1 p-0 bg-[#e5e0d3] relative z-10 md:mt-0 mt-0">
             <Image
-              src="/jpg/flower-1.jpg"
+              src="/jpg/water.jpg"
               alt="Para"
               width={320}
               height={400}
@@ -136,9 +136,9 @@ export default function JakPomagam() {
             />
           </div>
           {/* Małe zdjęcie pod spodem */}
-          <div className="absolute left-8 -bottom-6 w-[260px] h-[220px] z-0 hidden md:block">
+          <div className="absolute left-8 -bottom-0 w-[260px] h-[220px] z-0 hidden md:block">
             <Image
-              src="/jpg/forest-mushroom.jpg"
+              src="/jpg/flowers.jpg"
               alt="Para w plenerze"
               fill
               className="object-cover object-center rounded"
@@ -195,7 +195,7 @@ export default function JakPomagam() {
             <div className="flex flex-col items-start flex-1 gap-2">
               <div className="border-2 border-[#e5e0d3] p-1 mb-4 w-full aspect-[3/4] bg-[#e5e0d3]">
                 <Image
-                  src="/jpg/flower-1.jpg"
+                  src="/jpg/pointer.jpeg"
                   alt="Stacy + James"
                   width={400}
                   height={400}
@@ -205,21 +205,22 @@ export default function JakPomagam() {
               <p className="max-w-5xl text-sm font-bold">Krok pierwszy</p>
               <p className="max-w-5xl text-sm">
                 Na początku wybieramy temat, który chcesz poruszyć. Może to być
-                coś, co wydarzyło się niedawno, dawne doświadczenie, albo
-                uczucie, które trudno opisać, ale jest obecne w ciele. Wspólnie
-                szukamy miejsca, tzw. brainspotu – punktu spojrzenia, który
-                „łączy się” z tym doświadczeniem i aktywacją w ciele.
+                coś, co wydarzyło się niedalekiej przeszłości, dawne
+                doświadczenie, albo uczucie, które trudno opisać, ale jest
+                obecne w ciele. Wspólnie szukamy miejsca, tzw. brainspotu –
+                punktu spojrzenia, który „łączy się” z tym doświadczeniem i
+                aktywacją w ciele.
               </p>
             </div>
             {/* Zdjęcie 2 */}
             <div className="flex flex-col items-start flex-1 gap-2">
               <div className="border-2 border-[#e5e0d3] p-1 mb-4 w-full aspect-[3/4] bg-[#e5e0d3]">
                 <Image
-                  src="/jpg/forest-mushroom.jpg"
+                  src="/jpg/headphones.jpeg"
                   alt="Colbie + Matt"
                   width={320}
                   height={400}
-                  className="object-cover object-center w-full h-full"
+                  className="object-cover object-right w-full h-full"
                 />
               </div>
               <p className="max-w-5xl text-sm font-bold">Muzyka bilateralna</p>
@@ -233,7 +234,7 @@ export default function JakPomagam() {
             <div className="flex flex-col items-start flex-1 gap-2">
               <div className="border-2 border-[#e5e0d3] p-1 mb-4 w-full aspect-[3/4] bg-[#e5e0d3]">
                 <Image
-                  src="/jpg/flower-1.jpg"
+                  src="/jpg/processing.jpeg"
                   alt="Jennifer + Dave"
                   width={320}
                   height={400}

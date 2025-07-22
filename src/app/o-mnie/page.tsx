@@ -2,7 +2,6 @@ import Button from "@/components/atoms/button";
 import StarListElement from "@/components/atoms/starListElement";
 import { education } from "@/utils/constants";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -132,9 +131,8 @@ export default function AboutPage() {
               </div>
               <p className="text-[#6f684e] text-sm">
                 Wspólnie budujemy bezpieczne miejsce, w którym możesz się
-                zatrzymać, poszukać i odnaleźć. Tobą. Wierzę, że zmiana zachodzi
-                wtedy, gdy w relacji pojawia się zaufanie, cierpliwość oraz
-                otwartość.
+                zatrzymać. Wierzę, że zmiana zachodzi wtedy, gdy obecne są
+                zaufanie, cierpliwość oraz otwartość.
               </p>
             </div>
             {/* Karta 3 */}

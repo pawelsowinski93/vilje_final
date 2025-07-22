@@ -4,7 +4,6 @@ import Image from "next/image";
 import ContactForm from "@/components/client/ContactForm";
 import Button from "@/components/atoms/button";
 import { useRef } from "react";
-import Link from "next/link";
 
 export default function Kontakt() {
   const formRef = useRef<HTMLDivElement>(null);

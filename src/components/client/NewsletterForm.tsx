@@ -12,7 +12,7 @@ import {
 
 const newsletterSchema = z.object({
   name: z.string().min(1, "Imię jest wymagane"),
-  email: z.email("Nieprawidłowy format email"),
+  email: z.string().email("Nieprawidłowy format email"),
 });
 
 type NewsletterFormData = z.infer<typeof newsletterSchema>;

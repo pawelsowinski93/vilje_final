@@ -627,7 +627,7 @@ export default function ContactForm({ className }: ContactFormProps) {
         </Toast.Root>
         <Toast.Viewport className="[--viewport-padding:_25px] fixed bottom-0 right-0 flex flex-col p-[var(--viewport-padding)] gap-[10px] w-[390px] max-w-[100vw] m-0 z-[2147483647] outline-none" />
         <p className="md:block hidden absolute -bottom-6 -right-5 -rotate-16 text-[#8a7e56] z-10 font-the-impressionist text-3xl font-normal">
-          Dziekuje za <br />
+          Dziękuję za <br />
           zaufanie
         </p>
       </div>
