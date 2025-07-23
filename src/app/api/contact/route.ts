@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
       validatedData.lastName,
       "Nowa wiadomość z formularza kontaktowego",
       validatedData.message,
+      validatedData.phone,
       validatedData.preferredTime?.join(", ") || "",
       validatedData.contactMethod?.join(", ") || ""
     );

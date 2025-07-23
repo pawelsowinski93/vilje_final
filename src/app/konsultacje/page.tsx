@@ -65,7 +65,7 @@ export default function Konsultacje() {
               Konsultacja psychologiczna / psychotraumatologiczna
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
-              50 minut-250 zł
+              50 minut-230 zł
             </h3>
             <p className="text-[#a89c6d] text-center">
               Pierwsze 1–3 spotkania służą poznaniu się i omówieniu Twoich
@@ -81,7 +81,7 @@ export default function Konsultacje() {
               Sesja indywidualna
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
-              50 minut-250 zł
+              50 minut-230 zł
             </h3>
             <p className="text-[#a89c6d] text-center">
               W bezpiecznej i wspierającej przestrzeni masz okazję lepiej

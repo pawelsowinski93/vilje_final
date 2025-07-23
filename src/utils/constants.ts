@@ -131,7 +131,7 @@ export const faqs = [
   {
     question: "Jak się spotkamy?",
     answer:
-      "Podczas sesji online korzystamy z komunikatora WhatsApp lub platformy Zoom.",
+      "Podczas sesji online korzystamy z komunikatora WhatsApp lub platformy Google Meet.",
   },
   {
     question: "Czego będziesz potrzebować?",

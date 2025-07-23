@@ -9,8 +9,8 @@ class MailerService {
       port: 465,
       secure: true,
       auth: {
-        user: "pawel.sowinski.career@gmail.com",
-        pass: "afgm przk fjin zdsy",
+        user: "vilje.katarzynapsycholog@gmail.com",
+        pass: "hbfy ecoi yvuo gtkz",
       },
     });
   }
@@ -21,6 +21,7 @@ class MailerService {
     surname: string,
     subject: string,
     text: string,
+    phoneNumber: string,
     preferredTime: string,
     contactMethod: string
   ) {
@@ -160,6 +161,10 @@ class MailerService {
                     <div class="info-label">Email</div>
                     <div class="info-value">${from}</div>
                   </div>
+                  <div class="info-item">
+                    <div class="info-label">Telefon</div>
+                    <a href="tel:${phoneNumber}" class="info-value">${phoneNumber}</a>
+                  </div>
                 </div>
               </div>
               
@@ -167,23 +172,23 @@ class MailerService {
                 <h2>Preferencje kontaktu</h2>
                 <div class="info-grid">
                   <div class="info-item">
-                    <div class="info-label">Preferowany czas</div>
+                    <div class="info-label">Preferowana godzina spotkania w tygodniu</div>
                     <div class="info-value">${
                       preferredTime === "morning"
                         ? "Rano (do godziny 16:00)"
                         : preferredTime === "evening"
                         ? "Wieczorem (od godziny 16:00)"
-                        : preferredTime
+                        : "Dowolna godzina"
                     }</div>
                   </div>
                   <div class="info-item">
-                    <div class="info-label">Sposób kontaktu</div>
+                    <div class="info-label">Preferowany sposób kontaktu</div>
                     <div class="info-value">${
                       contactMethod === "phone"
                         ? "Telefon"
                         : contactMethod === "email"
                         ? "E-mail"
-                        : contactMethod
+                        : "Obie formy mi odpowiadają"
                     }</div>
                   </div>
                 </div>
@@ -218,7 +223,7 @@ class MailerService {
 
       await this.transporter.sendMail({
         from,
-        to: "pawel.sowinski.career@gmail.com",
+        to: "vilje.katarzynapsycholog@gmail.com",
         subject,
         text,
         html: htmlContent,
