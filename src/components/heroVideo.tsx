@@ -37,7 +37,7 @@ export default function HeroVideo() {
             loop
             playsInline
             preload="none"
-            poster="/video/las-2-poster-720p.jpg"
+            poster="/video/las-2-poster-first-frame.jpg"
             className="absolute w-full h-full object-cover filter contrast-100"
           >
             {/* Desktop - 720p */}
@@ -62,12 +62,16 @@ export default function HeroVideo() {
             {/* Desktop poster */}
             <div
               className="absolute w-full h-full bg-cover bg-center hidden md:block"
-              style={{ backgroundImage: "url(/video/las-2-poster-720p.jpg)" }}
+              style={{
+                backgroundImage: "url(/video/las-2-poster-first-frame.jpg)",
+              }}
             />
             {/* Mobile poster */}
             <div
               className="absolute w-full h-full bg-cover bg-center md:hidden"
-              style={{ backgroundImage: "url(/video/las-2-poster-480p.jpg)" }}
+              style={{
+                backgroundImage: "url(/video/las-2-poster-first-frame.jpg)",
+              }}
             />
           </>
         )}
