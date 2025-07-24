@@ -1,4 +1,5 @@
 import nodemailer from "nodemailer";
+import { env } from "./env";
 
 class MailerService {
   private transporter;
@@ -10,7 +11,7 @@ class MailerService {
       secure: true,
       auth: {
         user: "vilje.katarzynapsycholog@gmail.com",
-        pass: "hbfy ecoi yvuo gtkz",
+        pass: env.GOOGLE_PASS || "hbfy ecoi yvuo gtkz",
       },
     });
   }
