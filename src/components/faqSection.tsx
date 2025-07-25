@@ -20,7 +20,7 @@ export default function FAQSection() {
         <div className="md:w-1/2 relative">
           <div className="relative w-full aspect-[9/16] md:h-[500px] h-[400px]">
             <Image
-              src="/jpg/flower-1.jpg"
+              src="/jpg/bridge.jpg"
               alt="Kobieta w kontemplacji"
               fill
               className="object-cover rounded-lg"

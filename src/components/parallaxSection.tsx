@@ -56,14 +56,14 @@ export default function ParallaxSection({
         }}
       />
 
-      <div className="relative z-10 w-full h-full flex flex-col items-center justify-center gap-18 lg:py-32 md:py-0 py-8">
+      <div className="relative z-10 w-full h-full flex flex-col items-center justify-center gap-18 lg:py-32 md:py-0 py-18">
         <div className="relative w-full h-full">
           <Image
             src="/svg/3.svg"
             alt="about"
             width={180}
             height={180}
-            className="rotate-12 absolute ld:top-10 md:top-10 -top-20 left-1/2 -translate-x-1/2 z-20"
+            className="rotate-12 absolute ld:top-10 md:top-10 -top-10 left-1/2 -translate-x-1/2 z-20"
           />
         </div>
         <p

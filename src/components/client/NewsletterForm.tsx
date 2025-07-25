@@ -116,7 +116,7 @@ export default function NewsletterForm() {
             placeholder="ADRES EMAIL"
             {...register("email")}
             onChange={(e) => setValue("email", e.target.value)}
-            className={`w-full p-2 border border-black/20 px-6 py-4 text-md font-extralight tracking-wide focus:outline-0 placeholder:text-xs placeholder:text-gray-400 ${
+            className={`w-full p-2 border border-black/20 px-6 py-4 text-md font-extralight tracking-wide focus:outline-0 placeholder:text-xs ${
               errors.email ? "border-red-500" : ""
             } ${isSubscribed ? "opacity-50 cursor-not-allowed" : ""}`}
             disabled={isSubscribed}
