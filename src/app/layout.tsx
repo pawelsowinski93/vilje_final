@@ -40,27 +40,34 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Vilje - Katarzyna Sowińska | Psycholog i Psychoterapeuta",
+  title: "Vilje - Katarzyna Sowińska | Psycholog i Psychotraumatolog",
   description:
-    "Katarzyna Sowińska - psycholog kliniczny, psychotraumatolog i psychodietetyk. Specjalizuję się w terapii traumy, metodzie Brainspotting i Somatic Experiencing. Oferuję holistyczne podejście łączące psychologię z pracą z ciałem i układem nerwowym. Umów się na konsultację w Warszawie.",
+    "Jestem psychologiem i psychotraumatologiem. W pracy terapeutycznej łączę podejścia psychologiczne z metodami pracy z ciałem i układem nerwowym.",
   keywords:
-    "psycholog, psychoterapeuta, trauma, brainspotting, somatic experiencing, psychotraumatolog, Warszawa, terapia, zdrowie psychiczne",
+    "psycholog, psychotraumatolog, trauma, brainspotting, somatic experiencing, terapia, zdrowie psychiczne, terapia psychologiczna, ",
   authors: [{ name: "Katarzyna Sowińska" }],
   creator: "Katarzyna Sowińska",
   publisher: "Vilje",
   robots: "index, follow",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.webp", type: "image/webp" },
+    ],
+    apple: "/favicon.webp",
+  },
   openGraph: {
-    title: "Vilje - Katarzyna Sowińska | Psycholog i Psychoterapeuta",
+    title: "Vilje - Katarzyna Sowińska | Psycholog i Psychotraumatolog",
     description:
-      "Katarzyna Sowińska - psycholog kliniczny, psychotraumatolog i psychodietetyk. Specjalizuję się w terapii traumy, metodzie Brainspotting i Somatic Experiencing. Oferuję holistyczne podejście łączące psychologię z pracą z ciałem i układem nerwowym.",
+      "Jestem psychologiem i psychotraumatologiem. W pracy terapeutycznej łączę podejścia psychologiczne z metodami pracy z ciałem i układem nerwowym.",
     type: "website",
     locale: "pl_PL",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vilje - Katarzyna Sowińska | Psycholog i Psychoterapeuta",
+    title: "Vilje - Katarzyna Sowińska | Psycholog i Psychotraumatolog",
     description:
-      "Katarzyna Sowińska - psycholog kliniczny, psychotraumatolog i psychodietetyk. Specjalizuję się w terapii traumy, metodzie Brainspotting i Somatic Experiencing.",
+      "Jestem psychologiem i psychotraumatologiem. W pracy terapeutycznej łączę podejścia psychologiczne z metodami pracy z ciałem i układem nerwowym.",
   },
 };
 
@@ -72,6 +79,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.webp" type="image/webp" />
+        <link rel="apple-touch-icon" href="/favicon.webp" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
