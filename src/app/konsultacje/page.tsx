@@ -48,7 +48,9 @@ export default function Konsultacje() {
             <h3 className="text-2xl font-serif text-[#bdb085] mb-4 mt-4">
               Darmowa konsultacja
             </h3>
-            <h3 className="text-xl font-serif text-[#bdb085] mb-4">20 minut</h3>
+            <h3 className="text-xl font-serif text-[#bdb085] mb-4">
+              10-15 minut
+            </h3>
             <p className="text-[#a89c6d] text-center">
               Porozmawiamy o Twoich potrzebach i sprawdzimy, czy to, co oferuję,
               będzie dla Ciebie pomocne. Zapraszam, jeśli od dawna zastanawiasz

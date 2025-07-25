@@ -58,11 +58,11 @@ export default function AboutPage() {
               Somatic Experiencing (in spe).
             </p>
             <p className="text-[#6f684e] mb-4 text-sm">
-              Niezmiernie ważne jest dla mnie jest podejście holistyczne.
-              Kluczem do niego, jest uszanowanie i zrozumienie wzajemnych
-              powiązań między ciałem, umysłem i emocjami. Zaproszenie każdej z
-              tych sfer pozwala na całościową integrację w celu osiągnięcia
-              równowagi i harmonii w życiu.
+              Niezmiernie ważne jest dla mnie podejście holistyczne. Kluczem do
+              niego, jest uszanowanie i zrozumienie wzajemnych powiązań między
+              ciałem, umysłem i emocjami. Zaproszenie każdej z tych sfer pozwala
+              na całościową integrację w celu osiągnięcia równowagi i harmonii w
+              życiu.
             </p>
             <p className="text-[#6f684e] text-sm">
               W pracy terapeutycznej łączę podejścia psychologiczne z metodami

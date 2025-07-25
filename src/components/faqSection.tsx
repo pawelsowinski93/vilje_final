@@ -28,7 +28,6 @@ export default function FAQSection() {
           </div>
         </div>
 
-        {/* Right side - FAQ Accordion */}
         <div className="md:w-1/2">
           <div className="space-y-4">
             {faqs.map((faq, index) => (

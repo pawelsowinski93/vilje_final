@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow blog section
+Disallow: /blog
+
+# Sitemap location
+Sitemap: https://vilje.pl/sitemap.xml 
