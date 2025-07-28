@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import {
   Roboto_Slab,
   Square_Peg,
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
   description:
     "Jestem psychologiem i psychotraumatologiem. W pracy terapeutycznej łączę podejścia psychologiczne z metodami pracy z ciałem i układem nerwowym.",
   keywords:
-    "psycholog, psychotraumatolog, trauma, brainspotting, somatic experiencing, terapia, zdrowie psychiczne, terapia psychologiczna, ",
+    "psycholog, psycholog online, psycholog kraków, psycholog gdańsk, psycholog warszawa, psychotraumatolog, trauma, brainspotting, somatic experiencing, terapia, zdrowie psychiczne, terapia psychologiczna, ",
   authors: [{ name: "Katarzyna Sowińska" }],
   creator: "Katarzyna Sowińska",
   publisher: "Vilje",
@@ -99,6 +100,7 @@ export default function RootLayout({
         <Menu />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

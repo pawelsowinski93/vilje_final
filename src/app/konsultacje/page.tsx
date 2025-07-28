@@ -19,7 +19,7 @@ export default function Konsultacje() {
         <div className="absolute inset-0 bg-black/30 z-10" />
         <div className="absolute inset-0 flex flex-col justify-center items-center text-[#f5f1e6] text-center px-4 z-20">
           <h1 className="md:text-7xl text-4xl font-serif font-normal italic leading-tight">
-            Konsultacje
+            Konsultacje online
           </h1>
         </div>
         {/* Łuk wypukły nachodzący na zdjęcie */}
