@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SocialLinks from "./socialLinks";
 
 const Box = ({
   children,
@@ -42,6 +43,10 @@ export default function Footer() {
               label: "INSTAGRAM",
             },
             {
+              href: "https://www.tiktok.com/@vilje.psycholog",
+              label: "TIKTOK",
+            },
+            {
               href: "mailto:vilje.katarzynapsycholog@gmail.com",
               label: "EMAIL",
             },
@@ -49,7 +54,11 @@ export default function Footer() {
             <Link
               key={item.href}
               href={item.href}
-              target={item.label === "INSTAGRAM" ? "_blank" : "_self"}
+              target={
+                item.label === "INSTAGRAM" || item.label === "TIKTOK"
+                  ? "_blank"
+                  : "_self"
+              }
             >
               {item.label.toUpperCase()}
             </Link>
@@ -75,26 +84,7 @@ export default function Footer() {
           <p className="text-white z-10 font-the-impressionist text-2xl font-normal">
             linki
           </p>
-          <div className="flex flex-col justify-center items-center flex-wrap gap-2 text-sm md:font-semibold font-normal">
-            {[
-              {
-                href: "https://www.instagram.com/vilje.trauma.ciala",
-                label: "INSTAGRAM",
-              },
-              {
-                href: "mailto:vilje.katarzynapsycholog@gmail.com",
-                label: "EMAIL",
-              },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                target={item.label === "INSTAGRAM" ? "_blank" : "_self"}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
+          <SocialLinks />
         </div>
         <div className="flex justify-center items-center flex-col gap-4">
           <p className="text-white z-10 font-the-impressionist text-2xl font-normal">
