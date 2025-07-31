@@ -59,11 +59,7 @@ export const meetingSteps = [
 export const education = [
   {
     title: "",
-    text: "5-letnie studia magisterskie specjalność: psychologia kliniczna i osobowości WSB-NLU",
-  },
-  {
-    title: "",
-    text: "Studia podyplomowe z zakresu: psychotraumatologii, psychodietetyki oraz przygotowania pedagogicznego dla psychologów",
+    text: "5-letnie studia magisterskie na kierunku psychologia oraz studia podyplomowe z zakresu psychotraumatologii i psychodietetyki",
   },
   {
     title: "",
