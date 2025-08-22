@@ -71,6 +71,9 @@ export const education = [
   },
   {
     title: "",
+    text: "Program certyfikacyjny Somatic Embodiment & Regulation Strategies - Linda Thai",
+  {
+    title: "",
     text: "Brainspotting-Faza 1",
   },
   {
