@@ -43,10 +43,6 @@ export default function Footer() {
               label: "INSTAGRAM",
             },
             {
-              href: "https://www.tiktok.com/@vilje.psycholog",
-              label: "TIKTOK",
-            },
-            {
               href: "mailto:vilje.katarzynapsycholog@gmail.com",
               label: "EMAIL",
             },
