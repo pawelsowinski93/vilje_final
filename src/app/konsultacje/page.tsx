@@ -46,16 +46,21 @@ export default function Konsultacje() {
               01
             </div>
             <h3 className="text-2xl font-serif text-[#bdb085] mb-4 mt-4">
-              Darmowa konsultacja
+              Terapia psychosomatyczna
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
-              10-15 minut
+              50 minut-230 zł
             </h3>
             <p className="text-[#a89c6d] text-center">
-              Porozmawiamy o Twoich potrzebach i sprawdzimy, czy to, co oferuję,
-              będzie dla Ciebie pomocne. Zapraszam, jeśli od dawna zastanawiasz
-              się nad terapią, i nie wiesz czy taka forma będzie odpowiednia dla
-              Ciebie.
+              Wsparcie w odzyskiwaniu równowagi pomiędzy ciałem, emocjami i
+              umysłem.
+            </p>
+            <p className="text-[#a89c6d] text-center">
+              Praca z głębokim układem nerwowym i reakcjami ciała Oparcie na
+              wiedzy o funkcjonowaniu mózgu i układu nerwowego Wsparcie przy
+              objawach psychosomatycznych: różnego rodzaju bóle i dolegliwości
+              Integracja umysł-emocje-ciało: wykorzystuję wiedzę z zakresu
+              psychologii, psychotraumatologii oraz psychodietetyki
             </p>
           </div>
           {/* Step 2 */}
@@ -64,14 +69,15 @@ export default function Konsultacje() {
               02
             </div>
             <h3 className="text-2xl font-serif text-[#bdb085] mb-4 mt-4">
-              Konsultacja psychologiczna / psychotraumatologiczna
+              Pierwsza konsultacja/psychoedukacja
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
-              50 minut-230 zł
+              50 minut-210 zł
             </h3>
             <p className="text-[#a89c6d] text-center">
-              Pierwsze 1–3 spotkania służą poznaniu się i omówieniu Twoich
-              potrzeb oraz możliwości współpracy.
+              Wsparcie w zrozumieniu siebie, układu nerwowego Eksploracja
+              połączenia umysł-ciało-emocje Omówienie Twoich trudności i potrzeb
+              oraz możliwych kierunków dalszej pracy Psychoedukacja
             </p>
           </div>
           {/* Step 3 */}
@@ -80,15 +86,17 @@ export default function Konsultacje() {
               03
             </div>
             <h3 className="text-2xl font-serif text-[#bdb085] mb-4 mt-4">
-              Sesja indywidualna
+              Terapia traumy
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
               50 minut-230 zł
             </h3>
             <p className="text-[#a89c6d] text-center">
-              W bezpiecznej i wspierającej przestrzeni masz okazję lepiej
-              poznawać siebie – swoje ciało, emocje i potrzeby. Uczysz się
-              zatrzymywać i przyglądać się swoim doświadczeniom.
+              Wykorzystanie metod z zakresu psychotraumatologii/metod
+              somatycznych pracy z traumą m.in. SE, Brainspotting Łączenie
+              technik opartych na uważności, regulacji układu nerwowego; praca z
+              emocjami, myślami i ciałem Odzyskiwanie poczucia bezpieczeństwa i
+              równowagi w ciele. Odbudowywanie zasobów oraz praca nad schematami
             </p>
           </div>
         </div>

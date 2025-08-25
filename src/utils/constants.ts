@@ -98,16 +98,16 @@ export const expectations = {
       description: "Wspólnie wybieramy dogodny termin.",
     },
     {
-      title: "Regularne sesje",
+      title: "Pierwsza konsultacja",
       description:
-        "Odkrywasz swoje potrzeby i mechanizmy. Bez presji, bez ocen – to przestrzeń, by poczuć, co naprawdę dzieje się w Twoim ciele, emocjach i myślach. Zaczynasz odkrywać części siebie, które mogą Cię chronić, blokować lub wołać o uwagę. Uczysz się zatrzymywać, odczuwać swoje ciało, zauważać emocje i działać zgodnie ze swoimi wartościami.",
+        "Pierwsze spotkania (1-3) to szansa, by się poznać i porozmawiać o Twoich potrzebach. Wspólnie zastanawiamy się, czy możemy podjąć się współpracy w dostępnej formie.",
     },
   ],
   right: [
     {
-      title: "Pierwsze konsultacje",
+      title: "Regularne sesje",
       description:
-        "Pierwsze spotkania (1-3) to szansa, by się poznać i porozmawiać o Twoich potrzebach. Wspólnie zastanawiamy się, czy możemy podjąć się współpracy w dostępnej formie.",
+        "Odkrywasz swoje potrzeby i mechanizmy. Bez presji, bez ocen – to przestrzeń, by poczuć, co naprawdę dzieje się w Twoim ciele, emocjach i myślach. Zaczynasz odkrywać części siebie, które mogą Cię chronić, blokować lub wołać o uwagę. Uczysz się zatrzymywać, odczuwać swoje ciało, zauważać emocje i działać zgodnie ze swoimi wartościami.",
     },
     {
       title: "Integracja",
