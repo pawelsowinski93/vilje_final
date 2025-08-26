@@ -51,14 +51,21 @@ export default function Konsultacje() {
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
               50 minut-230 zł
             </h3>
-            <p className="text-[#a89c6d] text-center">
+            <p className="text-[#a89c6d] text-left pb-1">
               Wsparcie w odzyskiwaniu równowagi pomiędzy ciałem, emocjami i
               umysłem.
             </p>
-            <p className="text-[#a89c6d] text-center">
-              Praca z głębokim układem nerwowym i reakcjami ciała Oparcie na
-              wiedzy o funkcjonowaniu mózgu i układu nerwowego Wsparcie przy
-              objawach psychosomatycznych: różnego rodzaju bóle i dolegliwości
+            <p className="text-[#a89c6d] text-left pb-1">
+              Praca z głębokim układem nerwowym i reakcjami ciała
+            </p>
+            <p className="text-[#a89c6d] text-left pb-1">
+              Oparcie na wiedzy o funkcjonowaniu mózgu i układu nerwowego
+            </p>
+            <p className="text-[#a89c6d] text-left pb-1">
+              Wsparcie przy objawach psychosomatycznych: różnego rodzaju bóle i
+              dolegliwości
+            </p>
+            <p className="text-[#a89c6d] text-left">
               Integracja umysł-emocje-ciało: wykorzystuję wiedzę z zakresu
               psychologii, psychotraumatologii oraz psychodietetyki
             </p>
@@ -69,16 +76,22 @@ export default function Konsultacje() {
               02
             </div>
             <h3 className="text-2xl font-serif text-[#bdb085] mb-4 mt-4">
-              Pierwsza konsultacja/psychoedukacja
+              Pierwsza konsultacja/ psychoedukacja
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
               50 minut-210 zł
             </h3>
-            <p className="text-[#a89c6d] text-center">
-              Wsparcie w zrozumieniu siebie, układu nerwowego Eksploracja
-              połączenia umysł-ciało-emocje Omówienie Twoich trudności i potrzeb
-              oraz możliwych kierunków dalszej pracy Psychoedukacja
+            <p className="text-[#a89c6d] text-left pb-1">
+              Wsparcie w zrozumieniu siebie, układu nerwowego
             </p>
+            <p className="text-[#a89c6d] text-left pb-1">
+              Eksploracja połączenia umysł-ciało-emocje
+            </p>
+            <p className="text-[#a89c6d] text-left pb-1">
+              Omówienie Twoich trudności i potrzeb oraz możliwych kierunków
+              dalszej pracy
+            </p>
+            <p className="text-[#a89c6d] text-left w-full">Psychoedukacja</p>
           </div>
           {/* Step 3 */}
           <div className="rounded-2xl border border-[#d6cdb2] p-8 flex flex-col items-center bg-[#f5f1e6] relative md:mb-10">
@@ -91,12 +104,19 @@ export default function Konsultacje() {
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
               50 minut-230 zł
             </h3>
-            <p className="text-[#a89c6d] text-center">
+            <p className="text-[#a89c6d] text-left pb-1">
               Wykorzystanie metod z zakresu psychotraumatologii/metod
-              somatycznych pracy z traumą m.in. SE, Brainspotting Łączenie
-              technik opartych na uważności, regulacji układu nerwowego; praca z
-              emocjami, myślami i ciałem Odzyskiwanie poczucia bezpieczeństwa i
-              równowagi w ciele. Odbudowywanie zasobów oraz praca nad schematami
+              somatycznych pracy z traumą m.in. SE, Brainspotting
+            </p>
+            <p className="text-[#a89c6d] text-left pb-1">
+              Łączenie technik opartych na uważności, regulacji układu
+              nerwowego; praca z emocjami, myślami i ciałem
+            </p>
+            <p className="text-[#a89c6d] text-left pb-1">
+              Odzyskiwanie poczucia bezpieczeństwa i równowagi w ciele.
+            </p>
+            <p className="text-[#a89c6d] text-left">
+              Odbudowywanie zasobów oraz praca nad schematami
             </p>
           </div>
         </div>

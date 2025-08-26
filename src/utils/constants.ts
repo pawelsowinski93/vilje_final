@@ -100,7 +100,7 @@ export const expectations = {
     {
       title: "Pierwsza konsultacja",
       description:
-        "Pierwsze spotkania (1-3) to szansa, by się poznać i porozmawiać o Twoich potrzebach. Wspólnie zastanawiamy się, czy możemy podjąć się współpracy w dostępnej formie.",
+        "Pierwsze spotkanie to szansa, by się poznać i porozmawiać o Twoich potrzebach. Wspólnie zastanawiamy się, czy możemy podjąć się współpracy w dostępnej formie.",
     },
   ],
   right: [
