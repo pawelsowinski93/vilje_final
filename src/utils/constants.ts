@@ -87,7 +87,7 @@ export const education = [
   },
   {
     title: "",
-    text: "Obecnie kształcę się w szkole psychoterapii skierowanej na pracę z traumą organizowanego przez Pomorskie Centrum Psychotraumatologii (2024-obecnie) oraz w 3-letnim kursie metody Somatic Experiencing (2025-obecnie)",
+    text: "Obecnie pogłębiam wiedzę w Pomorskim Centrum Psychotraumatologii (2024-w toku), oraz jestem w trakcie 3-letniego szkolenia z metody Somatic Experiencing (2025-w toku)."
   },
 ];
 
@@ -135,6 +135,6 @@ export const faqs = [
   },
   {
     question: "Czego będziesz potrzebować?",
-    answer: "Dostępu do szybkiego internetu, kamery, słuchawek",
+    answer: "Dostępu do szybkiego internetu, kamery, słuchawek.",
   },
 ];

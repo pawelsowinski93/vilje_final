@@ -45,32 +45,19 @@ export default function AboutPage() {
               className="text-4xl font-instrument-serif tracking-tightest text-gray-800"
               style={{ fontFamily: '"Instrument Serif", serif' }}
             >
-              Dzień dobry, z tej strony <br />
               <em>Katarzyna Sowińska</em>
             </p>
             <p className="text-[#6f684e] mb-4 text-sm">
-              Jestem magistrem psychologii, kierunek: psychologia kliniczna oraz
-              osobowości, a także dyplomowanym psychotraumatologiem i
-              psychodietetykiem. Pracuję również jako praktyk metody
-              Brainspotting. Obecnie kontynuuję rozwój jako uczestniczka szkoły
-              psychoterapii ukierunkowanej na pracę z traumą Pomorskiego Centrum
-              Psychotraumatologii oraz jestem w trakcie specjalizacji z metody
-              Somatic Experiencing (in spe).
+              Jestem magistrem psychologii (specjalność: psychologia kliniczna i osobowości), dyplomowanym psychotraumatologiem oraz psychodietetykiem. Specjalizuję się w terapii traumy i terapii psychosomatycznej, opierając swoją pracę na wiedzy z zakresu psychologii, neuropsychologii oraz nowoczesnych metod somatycznych. Jestem praktykiem metody neuro-doświadczeniowej Brainspotting. Obecnie w trakcie specjalizacji z metody Somatic Experiencing® (in spe) oraz pogłębiania wiedzy i umiejętności z zakresu psychotraumatologii praktycznej w Pomorskim Centrum Psychotraumatologii.
             </p>
             <p className="text-[#6f684e] mb-4 text-sm">
-              Niezmiernie ważne jest dla mnie podejście holistyczne. Kluczem do
-              niego, jest uszanowanie i zrozumienie wzajemnych powiązań między
-              ciałem, umysłem i emocjami. Zaproszenie każdej z tych sfer pozwala
-              na całościową integrację w celu osiągnięcia równowagi i harmonii w
-              życiu.
+              Niezmiernie ważne jest dla mnie podejście holistyczne, skupiam się na integracji ciała, emocji i umysłu, co pozwala na zbudowanie poczucia bezpieczeństwa, równowagi psychofizycznej oraz wewnętrznej stabilności.
+            </p>
+            <p className="text-[#6f684e] mb-4 text-sm">
+              Jestem także Trenerem Bajkoterapii, wykorzystującym metaforę i wyobraźnię jako narzędzia wspierające.
             </p>
             <p className="text-[#6f684e] text-sm">
-              W pracy terapeutycznej łączę podejścia psychologiczne z metodami
-              pracy z ciałem i układem nerwowym. Taka praca umożliwia nie tylko
-              odzyskanie równowagi psychicznej, ale i trwałe wzmocnienie
-              psychiki. Zastosowanie metod pracy z ciałem pozwala dotrzeć do
-              źródeł traumy, lęku czy stresu, zapisanych w układzie nerwowym,
-              często niedostępnych dla świadomości.
+              W pracy terapeutycznej łączę podejścia psychologiczne z metodami pracy z ciałem i układem nerwowym. Zastosowanie tego typu metod pozwala dotrzeć do źródeł traumy, lęku czy stresu, zapisanych w układzie nerwowym, często niedostępnych dla świadomości.
             </p>
           </div>
           {/* Linia pionowa na desktopie */}
@@ -114,7 +101,7 @@ export default function AboutPage() {
               <p className="text-[#6f684e] text-sm">
                 To dla mnie bycie obecną w relacji – bez oceniania, bez
                 udawania. Ważne dla mnie jest tworzenie przestrzeni, w której
-                możesz bezpiecznie szukać, odkrywać i być
+                możesz bezpiecznie szukać, odkrywać i być.
               </p>
             </div>
             {/* Karta 2 */}
