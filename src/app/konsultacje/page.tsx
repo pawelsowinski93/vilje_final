@@ -49,7 +49,7 @@ export default function Konsultacje() {
               Terapia psychosomatyczna
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
-              50 minut-200 zł
+              50 minut-250 zł
             </h3>
             <p className="text-[#a89c6d] text-left pb-1">
               Wsparcie w odzyskiwaniu równowagi pomiędzy ciałem, emocjami i
@@ -79,7 +79,7 @@ export default function Konsultacje() {
               Pierwsza konsultacja/ psychoedukacja
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
-              50 minut-220 zł
+              50 minut-230 zł
             </h3>
             <p className="text-[#a89c6d] text-left pb-1">
               Wsparcie w zrozumieniu siebie, układu nerwowego
@@ -102,7 +102,7 @@ export default function Konsultacje() {
               Terapia traumy
             </h3>
             <h3 className="text-xl font-serif text-[#bdb085] mb-4">
-              50 minut-200 zł
+              50 minut-250 zł
             </h3>
             <p className="text-[#a89c6d] text-left pb-1">
               Wykorzystanie metod z zakresu psychotraumatologii/metod
